@@ -1,3 +1,4 @@
+package src.main.java;
 
 public class Main { // thsi is a class 
     

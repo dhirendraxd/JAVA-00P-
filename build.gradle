@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    // Define repositories for fetching dependencies (if needed)
+    jcenter()
+}
+
+dependencies {
+    // Add any dependencies your project requires
+    // For example:
+    // implementation 'com.example:library:1.0'
+}
