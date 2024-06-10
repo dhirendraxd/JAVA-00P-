@@ -1,4 +1,5 @@
-package src.main.java;
+package src;
+
 
 public class Literals {
     public static void main(String[] args) {
