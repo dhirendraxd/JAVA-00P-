@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exe",
+            "request": "launch",
+            "mainClass": "src.main.java.exe",
+            "projectName": "JAVA (00P)"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",
