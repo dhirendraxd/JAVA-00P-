@@ -8,6 +8,55 @@
             "type": "java",
             "name": "exe",
             "request": "launch",
+            "mainClass": "exe",
+            "projectName": "JAVA (00P)"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticOperations",
+            "request": "launch",
+            "mainClass": "src.main.ArithmeticOperations",
+            "projectName": "JAVA (00P)"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticOperations",
+            "request": "launch",
+            "mainClass": "src.ArithmeticOperations",
+            "projectName": "JAVA (00P)"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticOperations",
+            "request": "launch",
+            "mainClass": "ArithmeticOperations",
+            "projectName": "JAVA (00P)"
+        },
+        {
+            "type": "java",
+            "name": "AssociativityDemo",
+            "request": "launch",
+            "mainClass": "src.AssociativityDemo",
+            "projectName": "JAVA (00P)"
+        },
+        {
+            "type": "java",
+            "name": "AssociativityDemo",
+            "request": "launch",
+            "mainClass": "AssociativityDemo",
+            "projectName": "JAVA (00P)"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticOperations",
+            "request": "launch",
+            "mainClass": "src.main.java.ArithmeticOperations",
+            "projectName": "JAVA (00P)"
+        },
+        {
+            "type": "java",
+            "name": "exe",
+            "request": "launch",
             "mainClass": "src.main.java.exe",
             "projectName": "JAVA (00P)"
         },

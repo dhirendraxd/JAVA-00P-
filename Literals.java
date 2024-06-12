@@ -1,6 +1,3 @@
-package src;
-
-
 public class Literals {
     public static void main(String[] args) {
         System.out.println("----------DATA TYPES IN JAVA-----------");
