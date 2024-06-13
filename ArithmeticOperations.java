@@ -30,28 +30,28 @@ public class ArithmeticOperations{
         int y = 3; // Binary: 0011
 
         // Bitwise AND
-        result = x & y; // Binary: 0001 (1 in decimal)
-        System.out.println("Bitwise AND: " + result); // Output: Bitwise AND: 1
+        sum = x & y; // Binary: 0001 (1 in decimal)
+        System.out.println("Bitwise AND: " + sum); // Output: Bitwise AND: 1
 
         // Bitwise OR
-        result = x | y; // Binary: 0111 (7 in decimal)
-        System.out.println("Bitwise OR: " + result); // Output: Bitwise OR: 7
+        sum = x | y; // Binary: 0111 (7 in decimal)
+        System.out.println("Bitwise OR: " + sum); // Output: Bitwise OR: 7
 
         // Bitwise XOR
-        result = x ^ y; // Binary: 0110 (6 in decimal)
-        System.out.println("Bitwise XOR: " + result); // Output: Bitwise XOR: 6
+        sum = x ^ y; // Binary: 0110 (6 in decimal)
+        System.out.println("Bitwise XOR: " + sum); // Output: Bitwise XOR: 6
 
         // Bitwise NOT
-        result = ~x; // Binary: 11111010 (Two's complement representation in 8 bits, resulting in -6 in decimal)
-        System.out.println("Bitwise NOT: " + result); // Output: Bitwise NOT: -6
+        sum = ~x; // Binary: 11111010 (Two's complement representation in 8 bits, resulting in -6 in decimal)
+        System.out.println("Bitwise NOT: " + sum); // Output: Bitwise NOT: -6
 
         // Left Shift
-        result = x << 1; // Binary: 1010 (10 in decimal)
-        System.out.println("Left Shift: " + result); // Output: Left Shift: 10
+        sum = x << 1; // Binary: 1010 (10 in decimal)
+        System.out.println("Left Shift: " + sum); // Output: Left Shift: 10
 
         // Right Shift
-        result = x >> 1; // Binary: 0010 (2 in decimal)
-        System.out.println("Right Shift: " + result); // Output: Right Shift: 2
+        sum = x >> 1; // Binary: 0010 (2 in decimal)
+        System.out.println("Right Shift: " + sum); // Output: Right Shift: 2
 
         // Logical Operators
         boolean bool1 = true;
