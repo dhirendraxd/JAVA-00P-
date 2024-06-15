@@ -7,6 +7,8 @@ public class strings {
         
            // Using the String class constructor
            String str2 = new String("Hello, Java!");
+           // making and string variabels isnt always needed we can also work without it 
+
            
            // Printing the strings
            System.out.println(str1);
