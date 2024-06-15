@@ -26,6 +26,12 @@ public class exe {
 
         // Display the marks entered
         System.out.println("Marks entered:");
+<<<<<<< HEAD:out/src/com.compant/exe.java
         System.out.print("hi");
     }
 }
+=======
+        System.out.print("hu");
+    }
+}
+>>>>>>> 377f4c1350cb9970d14264747f8cc4cdae123a0c:exe.java

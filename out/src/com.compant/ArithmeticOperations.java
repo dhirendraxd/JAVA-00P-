@@ -6,7 +6,8 @@ public class ArithmeticOperations{
         int b = 5;
         
         // Addition
-        int sum = a + b;
+        int sum;
+        sum = a + b;
         System.out.println("Sum: " + sum); // Output: Sum: 15
         
         // Subtraction
@@ -30,8 +31,13 @@ public class ArithmeticOperations{
         int y = 3; // Binary: 0011
 
         // Bitwise AND
+<<<<<<< HEAD:out/src/com.compant/ArithmeticOperations.java
         sum = x & y; // Binary: 0001 (1 in decimal)
         System.out.println("Bitwise AND: " + sum); // Output: Bitwise AND: 1
+=======
+        int result = x & y; // Binary: 0001 (1 in decimal)
+        System.out.println("Bitwise AND: " + result); // Output: Bitwise AND: 1
+>>>>>>> 377f4c1350cb9970d14264747f8cc4cdae123a0c:ArithmeticOperations.java
 
         // Bitwise OR
         sum = x | y; // Binary: 0111 (7 in decimal)
