@@ -1,8 +1,0 @@
-{
-    "java.debug.settings.onBuildFailureProceed": true,
-    "files.autoSave": "afterDelay",
-    "java.format.settings.url": ".vscode/java-formatter.xml",
-    "java.dependency.packagePresentation": "hierarchical",
-    "java.project.explorer.showNonJavaResources": false,
-    "java.dependency.syncWithFolderExplorer": false
-}
