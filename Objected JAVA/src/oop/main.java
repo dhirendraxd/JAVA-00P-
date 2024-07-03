@@ -20,7 +20,7 @@ class employee{
     }
 }
 
-// cant write files in the next file why the heck that's happenign 
+// cant write files in the next file why the heck that's happenign  
 public class main {
     public static void main(String[] args) 
     {
