@@ -15,9 +15,12 @@ class employee{
     public int getsalary(){
         return salary;
     }
+    public int getname(){
+        return name;
+    }
 }
 
-
+// cant write files in the next file why the heck that's happenign 
 public class main {
     public static void main(String[] args) 
     {
@@ -48,6 +51,9 @@ public class main {
 
         int salary = emp1.getsalary(); // the class named getsalary is at the top 
         System.out.println(salary);
+
+        int nameof2 = emp2.getname();
+        System.out.println(";"+nameof2);
 
         sc.close();
     }
