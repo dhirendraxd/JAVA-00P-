@@ -1,4 +1,4 @@
-package oop;
+package practise_qs;
 
 public class exercise_code_without_explainatio {
     package 

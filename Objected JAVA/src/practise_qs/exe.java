@@ -1,4 +1,4 @@
-package oop;
+package practise_qs;
 
  class Employee{
      int salary;

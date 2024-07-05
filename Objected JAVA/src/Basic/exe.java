@@ -26,7 +26,7 @@ public class exe {
 
         // Display the marks entered
         System.out.println("Marks entered:");
-<<<<<<< HEAD:out/src/com.compant/exe.java
+<<<<<<< HEAD:out/src/com.compant/practise_qs.java
         System.out.print("hi");
     }
 }
