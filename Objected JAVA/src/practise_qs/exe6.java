@@ -28,6 +28,7 @@ class rectangel{
     }
 
 }
+// dummy code for java
 
 
 class extwala extends rectangel{
