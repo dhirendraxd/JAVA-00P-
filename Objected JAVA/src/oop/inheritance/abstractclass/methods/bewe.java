@@ -1,6 +1,6 @@
 package oop.inheritance.abstractclass.methods;
 
-
+// while making an abstract method inside a classs the class should also be abstract as well .. 
   abstract class  base { // parent class is also declared abstract to solve the issue for abstract function below 
     public base(){
         System.out.println("mai base 2 ka constructor hu ");
