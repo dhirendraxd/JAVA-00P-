@@ -30,7 +30,11 @@ class childd3 extends base{
 }
 public class bewe {
     public static void main(String[] args) {
-        
+     base b = new base(); // abstract classs wont be able to make object we can  inherit through them  only .
+     childd3 c3 = new childd3();
+     childd cd = new childd();   
+     System.out.println();
+     cd.gret();
     }
 }
 
