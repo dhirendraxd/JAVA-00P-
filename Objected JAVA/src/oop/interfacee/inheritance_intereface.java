@@ -34,6 +34,12 @@ class parentclass implements childsampleInterface{
 }
 public class inheritance_intereface {
     public static void main(String[] args) {
-    
+    parentclass p1 = new parentclass();
+    p1.meth1();// calling the methods of the interface class
+    p1.meth2(); // calling the methods of the interface class
+    p1.meth3();// calling the methods of the interface class// calling the methods of the interface class
+    p1.meth4();// calling the methods of the interface class
+    p1.meth5();// calling the methods of the interface class// calling the methods of the interface class
+        
     }
 }
