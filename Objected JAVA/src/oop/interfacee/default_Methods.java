@@ -6,7 +6,11 @@ package oop.interfacee;
 interface camera {
     void takesnap();
 
-    default void record4kvideo() {
+    private void shootvideo() {
+        System.out.println("Shooting video");
+    }
+    default void record4kvideo() { 
+        shootvideo(); // only record4kvideo can call this method 
         System.out.println("Recording in 4k");
     }
 }
@@ -14,7 +18,7 @@ interface camera {
 interface wifi {
     String[] getnetwork();
     void connecttonetwork(String network);
-}
+   
 
 // Now `mycell` implements the `camera` interface
 class mycell implements camera {
