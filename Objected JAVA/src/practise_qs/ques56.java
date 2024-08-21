@@ -44,7 +44,6 @@ class huuman extends monkey implements basicanimal{
     void sleep(){
         System.out.println("sleeping");
     }
-
 }
 interface tvremo{
     void changechannel();
