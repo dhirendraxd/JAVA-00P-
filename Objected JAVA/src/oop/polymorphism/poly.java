@@ -28,7 +28,7 @@ public class poly {
         p.ring();
         p.music();// why not workign ? becuase the object is of phone class and phone class does not have the music method
         p.camera(); // output will be taking photo and video
-       
+        // hey this is new edit testing form intellidj
 
     }
 
