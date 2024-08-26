@@ -1,0 +1,6 @@
+javac mini.java 
+  then 
+javac -d . mini.java
+
+if we want to select all the files ending wth .java then we cna do following as :
+   javac -d .*.java
