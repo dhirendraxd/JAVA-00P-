@@ -1,4 +1,8 @@
+package dhire;
+
 package packages_in_java;
+import java.util.Scanner;
+
 import java.util.Scanner;
 public class main {
     public static void main(String[] args) {
@@ -8,6 +12,8 @@ public class main {
 
         int a = sc.nextInt();
         System.out.println(a);
+        
 
     }
 }
+
