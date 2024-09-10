@@ -23,12 +23,14 @@ public class Methods {
     }
 
     public static void main(String[] args) {
-        // Calling the static method
-        int b = logiic(10, 23);
-        System.out.println("Result: " + b);
-
         // Creating an instance of the Methods class
         Methods obj = new Methods();
+
+        // // Calling the static method
+        int b = logiic(10, 23); // we dont need to create an object for static method or we can use the class name to call the static method : int b = Methods.logiic(10, 23);
+        System.out.println("Result: " + b);
+
+        
 
         // Calling the non-static method using the object
         int result = obj.copy_logic(20, 15);
