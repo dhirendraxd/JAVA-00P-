@@ -1,5 +1,20 @@
 package generics_java;
 import java.util.ArrayList;
+class mynum <T>{
+    private  T i;
+    public mynum(T i){
+        this.i = i;
+    }
+    public <T> returnmynum(){
+        return i;
+    }
+
+    public void show(){
+        System.out.println(i);
+    }
+}
+
+
 public class gen2 {
     public static void main(String[] args) {
         // this array list will accept anything      like integer, string, double etc but if we want to add only integer then we use gens    
