@@ -1,6 +1,8 @@
 package generics_java.gen2;
-import java.util.ArrayList;
-import java.util.Collections;
+// import java.util.ArrayList;
+// import java.util.Collections;
+import java.util.*;
+// Importing all classes from java.util package to use ArrayList and Collections
 
 public class generics {
     public static void main(String[] args) {
