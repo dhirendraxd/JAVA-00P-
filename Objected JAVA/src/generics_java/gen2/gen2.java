@@ -1,16 +1,38 @@
 package generics_java.gen2;
+
 import java.util.ArrayList;
+
+// Generic class with type T
+class mygenerics<T> {
+    // using T means we can use any type with this class (String, Integer, etc.) later on in the code in main method or other methods in the class 
+    private int val;
+    private T t1; // t1 is of type T
+
+    // Constructor to initialize t1 and val
+    public mygenerics(int val, T t1) {
+        this.val = val;
+        this.t1 = t1;
+    }
+
+    // Getter and Setter methods
+    public void setT1ANDVAL(T t1, int val) {
+        this.t1 = t1;
+        this.val = val;
+    }
+
+    public int getVal() {
+        return val;
+    }
+
+    public T getT1() {
+        return t1;
+    }
+}
 
 public class gen2 {
     public static void main(String[] args) {
 
-        // before 
-        // ArrayList arlst = new ArrayList();
-        // arlst.add(arlst);
-        // Adding an ArrayList to itself will cause a stack overflow error because it will keep adding itself to the list infinitely
-
-        // after
-        // this arraylist is specifically for integers only so it will only accept integers
+        // ----- ArrayList example -----
         ArrayList<Integer> arlst = new ArrayList<>();
 
         // Adding elements to the Integer list
@@ -18,20 +40,21 @@ public class gen2 {
         arlst.add(2);
         arlst.add(3);
         arlst.add(4);
-        int a = (int) arlst.get(4);  
+
+        // Trying to access an element at index 4 will cause IndexOutOfBoundsException
+        // Fixed: Correct index to 3 (since indices are 0-based)
+        int a = arlst.get(3);  
         System.out.println("List: " + arlst); // Output: [1, 2, 3, 4]
+        System.out.println("Element at index 3: " + a); // Output: 4
 
-        // ----- two exception examples -----
-        int a = arlst.get(0); // This will throw a ClassCastException
-        System.out.println(a); // This line won't be reached
+        // ----- Generic Class Example -----
+        // Correct usage of generics with String type
+        mygenerics<String> g1 = new mygenerics<>(34, "hey");
 
-        int a = (int) arlst.get(0); // This will throw a ClassCastException
-        System.out.println(a); // This line won't be reached
-        // to fix this, we can use generics to specify the type of the list elements like this: ArrayList<Integer> arlst = new ArrayList<>();
-        // now it will work fine and won't throw any exceptions
-        int a = arlst.get(0); // This will work fine now as output will be 1
-        System.out.println(a); // Output: 1
+        String str = g1.getT1(); // Output: hey
+        int b = g1.getVal(); // Output: 34
 
-
+        System.out.println("Value of T1 (String): " + str); // Output: hey
+        System.out.println("Value of Val (int): " + b); // Output: 34
     }
 }
