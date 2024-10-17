@@ -1,11 +1,15 @@
-import java.io.*;
-import java.util.Scanner;
+import java.io.*;// we have to import io package to work with files , it imports all the related classes form io package
+import java.util.Scanner; // we have to import scanner class to read from a file
 public class file {
     public static void main(String[] args) {
         
         
         // code to create a new file 
         File myFile = new File("dhiren.txt");
+        // anytime we have to make a file we use File class and then we have to use new keyword to create a new file 
+
+
+
         try{
             myFile.writeToFile("Hello, World!");
         } catch (IOException e) {
@@ -43,7 +47,9 @@ public class file {
 
         // code to delete a file
         if (myFile2.delete()) {
+            // we have to use .delete method to delete a file its a inbuilt method
             System.out.println("Deleted the file: " + myFile2.getName());
+            //get.name is alos an inbuilt method to get the name of the file 
              } else {
                 System.out.println("Failed to delete the file.");
             }
