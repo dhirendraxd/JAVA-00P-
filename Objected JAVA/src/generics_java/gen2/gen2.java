@@ -40,6 +40,7 @@ public class gen2 {
         arlst.add(2);
         arlst.add(3);
         arlst.add(4);
+        // arlst.add(5); // Uncommenting this line will cause IndexOutOfBoundsException
 
         // Trying to access an element at index 4 will cause IndexOutOfBoundsException
         // Fixed: Correct index to 3 (since indices are 0-based)
