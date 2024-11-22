@@ -6,6 +6,7 @@ import java.util.*;
 
 public class generics {
     public static void main(String[] args) {
+        // arraylist are dynamic arrays that can grow as needed , for eg if we have an array of size 10 and we want to add 11th element then we have to create a new array of size 11 and copy the elements of the old array to the new array and then add the 11th element to the new array and then delete the old array , this is a very time consuming process , so to avoid this we use arraylist , arraylist are dynamic arrays that can grow as needed , for eg if we have an arraylist of size 10 and we want to add 11th element then we can simply add the 11th element to the arraylist and the arraylist will automatically grow in size and accomodate the 11th element , this is a very fast process , arraylist are part of the java.util package 
         // ArrayList for Integer
         ArrayList<Integer> arlst = new ArrayList<>();
 
@@ -14,9 +15,20 @@ public class generics {
 
         // ArrayList for Character
         ArrayList<Character> arlst3 = new ArrayList<>();
+        // storing user input in the arraylist for character
+        Scanner sc = new Scanner(System.in);
+        char c = sc.next().charAt(0);// what is we dont use charAt(0) , then it will give an error , because the next() method will take the whole string as input and the next() method will not take the whole string as input , it will take only the first character of the string as input , so we have to use charAt(0) to get the first character of the string as input so it will store the first character of the string as input in the variable c but wont store the whole word as input in the variable c , so we have to use charAt(0) to get the first character of the string as input so it will store the first character of the string as input in the variable c but wont store the whole word as input in the variable c
+
+        arlst3.add(c);
+        // what is we want to store the while word in there , then we have to use the nextLine() method instead of the next() method , the nextLine() method will take the whole line as input and store it in the variable , so we have to use the nextLine() method instead of the next() method to store the whole line as input in the variable , so we have to use the nextLine() method instead of the next() method to store the whole line as input in the variable .. eg code : 
+        String s = sc.nextLine();
+        arlst2.add(s);
+        // what is we want to store the while word in there , then we have to use the nextLine() method instead of the next() method , the nextLine() method will take the whole line as input and store it in the variable , so we have to use the nextLine() method instead of the next() method to store the whole line as input in the variable , so we have to use the nextLine() method instead of the next() method to store the whole line as input in the variable .. eg code :
+
 
         // ArrayList for Boolean
         ArrayList<Boolean> arlst4 = new ArrayList<>();
+
 
         // --- Integer List Operations ---
         // Adding elements to the Integer list
@@ -27,6 +39,7 @@ public class generics {
         System.out.println("Integer List: " + arlst); // Output: [0, 1, 2, 3]
 
         // Adding element at index 2
+        //Output: [0, 1, 2, 3]
         arlst.add(2, 4);
         System.out.println("Integer List after adding 4 at index 2: " + arlst); // Output: [0, 1, 4, 2, 3]
 
