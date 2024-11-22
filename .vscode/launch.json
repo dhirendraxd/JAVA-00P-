@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "one",
+            "request": "launch",
+            "mainClass": "Questions.one",
+            "projectName": "JAVA-00P-_82722465"
+        },
+        {
+            "type": "java",
             "name": "GameApp",
             "request": "launch",
             "mainClass": "practise_qs.GameApp",
