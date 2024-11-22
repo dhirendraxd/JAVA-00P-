@@ -8,8 +8,6 @@ public class file {
         File myFile = new File("dhiren.txt");
         // anytime we have to make a file we use File class and then we have to use new keyword to create a new file 
 
-
-
         try{
             myFile.writeToFile("Hello, World!");
         } catch (IOException e) {

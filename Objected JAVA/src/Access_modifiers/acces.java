@@ -46,3 +46,5 @@ public class acces {
 
     }
 }
+
+// in short the above code is about the access modifiers in java. there are 4 types of access modifiers in java. they are private, public, protected and default. private members can only be accessed within the class. public members can be accessed from anywhere in the program. protected members can be accessed from the same package and from the inherited class. default members can be accessed from the same package only.
