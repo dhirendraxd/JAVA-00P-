@@ -21,12 +21,13 @@ public class custion_exception {
     public static void main(String[] args) {
         //  int a = 7;
          Scanner sc = new Scanner(System.in);
+         System.out.println("Enter a number: ");
          int a = sc.nextInt();
 
          if(a<9){
            try  {
             throw new exceptionn();
-            
+            // throw new exceptionn("I am an exception");
            } catch (Exception e) {
             // shoudl be the first catch block to be executed 
             // this is hwo to call the methods of the custom exception

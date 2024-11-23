@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "custion_exception",
+            "request": "launch",
+            "mainClass": "Exception_handling.custion_exception",
+            "projectName": "JAVA-00P-_82722465"
+        },
+        {
+            "type": "java",
             "name": "NByNArrayAndSum",
             "request": "launch",
             "mainClass": "Questions.NByNArrayAndSum",
