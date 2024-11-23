@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NByNArrayAndSum",
+            "request": "launch",
+            "mainClass": "Questions.NByNArrayAndSum",
+            "projectName": "JAVA-00P-_82722465"
+        },
+        {
+            "type": "java",
+            "name": "n_n_arrayandshowingtheriesum",
+            "request": "launch",
+            "mainClass": "Questions.n_n_arrayandshowingtheriesum",
+            "projectName": "JAVA-00P-_82722465"
+        },
+        {
+            "type": "java",
+            "name": "readnnumand_dispalyprimeinsideofthem",
+            "request": "launch",
+            "mainClass": "Questions.readnnumand_dispalyprimeinsideofthem",
+            "projectName": "JAVA-00P-_82722465"
+        },
+        {
+            "type": "java",
+            "name": "askingnforuserandstoring_n_fromuser",
+            "request": "launch",
+            "mainClass": "Questions.askingnforuserandstoring_n_fromuser",
+            "projectName": "JAVA-00P-_82722465"
+        },
+        {
+            "type": "java",
             "name": "suminsidethearray",
             "request": "launch",
             "mainClass": "Questions.suminsidethearray",
