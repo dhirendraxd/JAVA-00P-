@@ -21,5 +21,6 @@ public class suminsidethearray {
 
         System.out.println("The sum of the elements of the array is: " + sum);
         sc.close();
+        // the above code is correct and will run without any error, it does things like  taking the input from the user and storing it in the array and then calculating the sum of the elements of the array and then printing the sum of the elements of the array
     }
 }

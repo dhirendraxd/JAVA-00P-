@@ -1,3 +1,5 @@
+package Basic;
+
 public class rev_string {
     public static void main(String[] args) {
         String str = "Hello";

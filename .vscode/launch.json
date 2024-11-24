@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "two",
+            "request": "launch",
+            "mainClass": "Questions.two",
+            "projectName": "JAVA-00P-_82722465"
+        },
+        {
+            "type": "java",
+            "name": "rev_string",
+            "request": "launch",
+            "mainClass": "Basic.rev_string",
+            "projectName": "JAVA-00P-_82722465"
+        },
+        {
+            "type": "java",
             "name": "custion_exception",
             "request": "launch",
             "mainClass": "Exception_handling.custion_exception",

@@ -12,7 +12,7 @@ public class two {
             if (i %2 !=0) {
                 System.out.println(i);
                 // ouptut: 1, 3, 5, 7, 9
-            }
+            }// this will print all the odd numbers from 1 to 10
         }
 
         for (int i = 0; i <n; i++) {
