@@ -101,10 +101,16 @@ public class generics {
         arlst4.clear();
         System.out.println("Boolean List after clear: " + arlst4); // Output: []
 
-        // --- Generic Class Operations ---
-        Complete.sort(arlst);// Output: [0, 1, 2, 3]
-        System.out.println("Sorted Integer List: " + arlst);
-        complete.reverse(arlst);// Output: [3, 2, 1, 0]
+        // --- Generic Class Operations :
+        // Generic class with String
+        GenericClass<String> genStr = new GenericClass<>("Hello");
+        System.out.println("Generic String Value: " + genStr.getValue()); // Output: Hello
+        
+
+        // Generic class with Integer type
+        GenericClass<Integer> genInt = new GenericClass<>(10);
+        System.out.println("Generic Integer Value: " + genInt.getValue()); // Output: 10
+
 
 
     }

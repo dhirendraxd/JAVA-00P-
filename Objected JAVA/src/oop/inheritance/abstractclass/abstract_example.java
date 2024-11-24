@@ -16,7 +16,7 @@ class Pig extends Animal {
         System.out.println("The pig says: wee wee");
     }
 }
-
+// abstraction works as a blueprint for the class and the class which is implementing the abstract class must have to implement the abstract methods of the abstract class
 
 public class abstract_example {
     public class Main {

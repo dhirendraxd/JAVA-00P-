@@ -1,3 +1,5 @@
+package Basic;
+
 public class foreach {
     public static void main(String[] args) {
         int [] marks = {753, 534, 53, 523, 5242, 232};
@@ -16,7 +18,9 @@ public class foreach {
         }
         //reversing an array 
         for (int i = studnets.length - 1; i >=0; i--) {
-            System.out.println(studnets[i]);
+            System.out.println(studnets[i]); // this will print : clashe, dhiren and if we want to compare reverse and original we can do that by using the same loop and comparing the elements of the array as : 
+            System.out.println(studnets[i] + " " + studnets[studnets.length - 1 - i]);// this will print : 
+
         }
     }
 }

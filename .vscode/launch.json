@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "foreach",
+            "request": "launch",
+            "mainClass": "Basic.foreach",
+            "projectName": "JAVA-00P-_82722465"
+        },
+        {
+            "type": "java",
             "name": "two",
             "request": "launch",
             "mainClass": "Questions.two",

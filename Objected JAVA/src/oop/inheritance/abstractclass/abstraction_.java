@@ -43,7 +43,7 @@ class Circle extends Shape {
     private int radius;
 
     Circle(int radius, String name) {
-        super(name);
+        super(name); // super keyword is used to call the constructor of the parent class (Shape) in this case it will act as Shape(name) it works as a constructor
         this.radius = radius;
     }
 
