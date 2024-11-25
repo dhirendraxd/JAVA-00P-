@@ -26,7 +26,15 @@ class namaya extends mini{
     }
 
 }
-
+// 
+// // importing form dhire.mini
+// class mini{
+//     private int a = 10;
+//     public int b = 20;
+//     protected int c = 30;
+//     int d = 40; // default access modifier is used here.
+// }
+//
 
 public class acces {
     public static void main(String[] args) {
