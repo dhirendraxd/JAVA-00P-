@@ -17,6 +17,8 @@ class c2 extends c1{
 }
 class namaya extends mini{
     void show(){
+        System.out.println("a = "+a); // Error because a is private
+        System.out.println("b = "+b); // b is public so it can be accessed cause it is inherited from c1 class and c2 is child class of c1 class so it can access public members of c1 class
         System.out.println("a = "+a); // Error because a is private 
         System.out.println("b = "+b); // b is public so it can be accessed cause it is inherited from c1 class and c2 is child class of c1 class so it can access public members of c1 class
         System.out.println("c = "+c); // c is protected so it can be accessed cause it is inherited from c1 class and c2 is child class of c1 class so it can access protected members of c1 class
