@@ -1,3 +1,4 @@
+package Multi_threading;
 class MyRunnable implements Runnable { // runnable is alos a interface which is used to create threads. it has only one method run which is used to execute the code. 
     @Override
     public void run() {

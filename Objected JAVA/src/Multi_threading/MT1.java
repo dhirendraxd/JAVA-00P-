@@ -1,3 +1,4 @@
+package Multi_threading;
 class MyThread extends Thread {
     // The run method contains the code to be executed by the thread
     @Override
